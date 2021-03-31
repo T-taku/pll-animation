@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.animation {
+    animation: slide-in ease 5s forwards;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes slide-in{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    100%{
+        opacity: 0;
+    }
+}
