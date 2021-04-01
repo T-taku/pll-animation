@@ -43,7 +43,7 @@
     width: 200px;
     height: 100px;
     position: absolute;
-    animation: logo-txt-animation 3s ease-in-out 3.9s forwards;
+    animation: logo-txt-animation 3s ease-in-out 4.2s forwards;
 }
 
 @keyframes slide-in{
@@ -75,12 +75,10 @@
     }
     50%{
         opacity: 1;
-        width: 250px;
-        height: 100px;
     }
     100%{
-        opacity: 1;
-        width: 200px;
+        opacity: 0;
+        width: 350px;
         height: 100px;
     }
 }
