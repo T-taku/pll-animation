@@ -16,7 +16,7 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    animation: slide-in 2.5s ease 0.1s forwards;
+    animation: slide-in 2.2s ease 0.1s forwards;
 }
 
 .slide{
@@ -40,10 +40,10 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 200px;
+    width: 250px;
     height: 100px;
     position: absolute;
-    animation: logo-txt-animation 2.1s ease-in-out 3.8s forwards;
+    animation: logo-txt-animation 3.5s ease-in-out 3.8s forwards;
 }
 
 @keyframes slide-in{
@@ -70,7 +70,6 @@
 @keyframes logo-txt-animation{
     0%{
         opacity: 0;
-        width: 200px;
         height: 100px;
     }
     50%{
@@ -78,7 +77,6 @@
     }
     100%{
         opacity: 0;
-        width: 350px;
         height: 100px;
     }
 }
