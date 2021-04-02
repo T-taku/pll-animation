@@ -30,7 +30,7 @@
     height: 100px;
     position: absolute;
     background-color: #000;
-    animation: slider-left 0.45s ease 2.7s forwards;
+    animation: slider-left 0.45s ease 3s forwards;
 }
 
 .logo-txt{
@@ -43,7 +43,7 @@
     width: 200px;
     height: 100px;
     position: absolute;
-    animation: logo-txt-animation 3s ease-in-out 3.2s forwards;
+    animation: logo-txt-animation 2.1s ease-in-out 3.8s forwards;
 }
 
 @keyframes slide-in{
