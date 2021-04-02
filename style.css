@@ -26,8 +26,8 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     position: absolute;
     background-color: #000;
     animation: slider-left 0.45s ease 3s forwards;
@@ -43,7 +43,7 @@
     width: 250px;
     height: 100px;
     position: absolute;
-    animation: logo-txt-animation 3.5s ease-in-out 3.8s forwards;
+    animation: logo-txt-animation 4.5s ease-in-out 3.8s forwards;
 }
 
 @keyframes slide-in{
