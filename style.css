@@ -26,8 +26,8 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     background-color: #000;
     animation: slider-left 0.45s ease 3s forwards;
